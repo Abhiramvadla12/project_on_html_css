@@ -716,8 +716,16 @@ input::placeholder{
     position:inherit;
     right: 0px;
     background-color: #0d6efd;
-    gap: 10%;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 40vw;
     
+   }
+   #burger:focus-within ~ .navbar ul{
+        display: block;
+   }
+   #burger:focus + .header-logo{
+        margin-top: -10%;
    } */
    .header_main{
     justify-content: end;
@@ -737,6 +745,7 @@ input::placeholder{
    }
    .header-logo{
     margin-top: -7%;
+    position: fixed;
    }
    .header-bg{
     height: 100px;
