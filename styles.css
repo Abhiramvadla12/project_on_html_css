@@ -729,7 +729,8 @@ input::placeholder{
    }
    .form{
     width: 80vw;
-    top: 1120%;
+    top: 1100vh;
+    height: 85vh;
    }
    .fullname,.email,.message{
     width: 75vw;
@@ -919,7 +920,7 @@ input::placeholder{
         height: 1600px;
     }
     .lists{
-        margin-top: 170%;
+        margin-top: 120vh;
         margin-left: 20%;
     }
     .last{
@@ -933,7 +934,7 @@ input::placeholder{
 
 @media screen and (max-width:380px) {
     .form{
-        height: 90%;
+        height: 90vh;
         width: 320px;
     }
     textarea{
