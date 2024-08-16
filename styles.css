@@ -520,7 +520,7 @@ input::placeholder{
 .end{
     margin-left: 10%;
 }
-@media screen and (max-width:1245px) {
+@media screen and (max-width:1440px) {
     .course{
         height: 70vh;
 
@@ -536,7 +536,7 @@ input::placeholder{
     }
     .form{
         top: 0vh;
-        height: 125vh;
+        height: 95vh;
     }
     .view-courses{
         width: 20vw;
