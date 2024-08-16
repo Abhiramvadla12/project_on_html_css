@@ -981,3 +981,22 @@ input::placeholder{
         margin-top: 190%;
     }
 }
+@media screen and (max-width:1245px) {
+    .course{
+        height: 70vh;
+
+    }
+    .course-image{
+        height: 70vh;
+    }
+    .phone,.mobile{
+        width: 18vw;
+    }
+    textarea{
+        width: 30vw;
+    }
+    .form{
+        top: 580vh;
+    }
+
+}
