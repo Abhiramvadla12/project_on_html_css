@@ -998,5 +998,11 @@ input::placeholder{
     .form{
         top: 580vh;
     }
+    .view-courses{
+        width: 20vw;
+    }
+    .joinus{
+        width: 13vw;
+    }
 
 }
