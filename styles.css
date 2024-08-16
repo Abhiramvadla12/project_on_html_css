@@ -536,7 +536,7 @@ input::placeholder{
     }
     .form{
         top: 0vh;
-        height: 85vh;
+        height: 90vh;
     }
     .view-courses{
         width: 20vw;
@@ -588,7 +588,7 @@ input::placeholder{
 
     .form{
         margin-top: 5%;
-        height: 85vh;
+        height: 90vh;
     }
     textarea{
         width: 300px;
@@ -769,7 +769,7 @@ input::placeholder{
    .form{
     width: 80vw;
     top: 125vh;
-    height: 85vh;
+    height: 90vh;
    }
    .fullname,.email,.message{
     width: 75vw;
