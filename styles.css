@@ -740,7 +740,7 @@ input::placeholder{
     .navbar{
         position: relative;
     }
-   ul{
+   /* ul{
     
     display: none;
     flex-direction: column;
@@ -754,7 +754,7 @@ input::placeholder{
    }
    #burger:focus-within ~ .navbar ul{
         display: block;
-   }
+   } */
    .header_main{
     justify-content: end;
     margin-left: 5vh;
