@@ -763,7 +763,7 @@ input::placeholder{
      border: 2px solid white;
      
    }
-   .items:hover,.items-1:hover{
+   .items:active,.items-1:active{
     background-color: black;
    }
    
