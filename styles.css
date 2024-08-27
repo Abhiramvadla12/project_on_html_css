@@ -212,7 +212,7 @@ ol{
     height: 54vh;
 }
 .course{
-    border: 2px solid;
+    box-shadow: 1px 1px 10px ;
     margin-right: 5%;
     border-radius: 10px;
     display: flex;
@@ -740,21 +740,45 @@ input::placeholder{
     .navbar{
         position: relative;
     }
-   /* ul{
+   ul{
     
     display: none;
     flex-direction: column;
+    justify-content: space-between;
     position:inherit;
     right: 0px;
     background-color: #0d6efd;
-    justify-content: space-evenly;
-    height: 40vh;
-    width: 40vw;
+    height: 80vh;
+    width: 60vw;
     
    }
+   .items{
+    
+        padding: 10px;
+        border: 2px solid white;
+   }
+   .items-1{
+     padding: 10px;
+     margin-bottom: 25vh;
+     border: 2px solid white;
+     
+   }
+   .items:hover,.items-1:hover{
+    background-color: black;
+   }
+   
+   .dropdown-menu{
+        height: 25vh;
+   }
    #burger:focus-within ~ .navbar ul{
-        display: block;
-   } */
+        display: inline-block;
+        padding: 10px;
+        width: 100vw;
+        gap: 5vw;
+   }
+   #burger:focus-within + a{
+    display: none;
+   }
    .header_main{
     justify-content: end;
     margin-left: 5vh;
@@ -996,6 +1020,17 @@ input::placeholder{
     .course-image{
         height: 70vh;
     }
+    .sec2-dec-right{
+        height: 40vh;
+        width:75vw;
+        margin-left: 20vw;
+        margin-top: -70%;
+        
+    }
+    .sec2-dec-left{
+        width: 75vw;
+        height: 40vh;
+    }
     
 }
 @media screen and (max-width:325px) {
@@ -1014,5 +1049,21 @@ input::placeholder{
     }
     .lists{
         margin-top: 190%;
+    }
+    .sec2-dec-left{
+        height: 35vh;
+        width: 75vw;
+        margin-left: 35vw;
+    }
+    .sec2-dec-right{
+        height: 35vh;
+        width: 75vw;
+        margin-left: 0;
+        margin-right: 35vw;
+        margin-top: -74%;
+    }
+    
+    .form{
+        top: 110vh;
     }
 }
